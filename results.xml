@@ -1,0 +1,204 @@
+<testsuites id="" name="" tests="26" failures="0" skipped="0" errors="0" time="36.803353">
+<testsuite name="cart.test.spec.js" timestamp="2024-12-08T08:57:16.725Z" hostname="chromium" tests="3" failures="0" skipped="0" time="12.781" errors="0">
+<testcase name="Swag Labs Cart Validations › Add single product to cart" classname="cart.test.spec.js" time="6.898">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\cart.test-Swag-Labs-Cart-V-99fe8--Add-single-product-to-cart-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Cart Validations › Remove single product from cart" classname="cart.test.spec.js" time="3.351">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\cart.test-Swag-Labs-Cart-V-1a2a2-ve-single-product-from-cart-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Cart Validations › Add all products to cart and verify total items in cart page" classname="cart.test.spec.js" time="2.532">
+<system-out>
+<![CDATA[locator('.cart_item')
+
+[[ATTACHMENT|test-results\cart.test-Swag-Labs-Cart-V-6342e-fy-total-items-in-cart-page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="checkout.test.spec.js" timestamp="2024-12-08T08:57:16.725Z" hostname="chromium" tests="6" failures="0" skipped="0" time="19.123" errors="0">
+<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Backpack item" classname="checkout.test.spec.js" time="7.619">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-12aea-or-Sauce-Labs-Backpack-item-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Bike Light item" classname="checkout.test.spec.js" time="2.352">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-9346c--Sauce-Labs-Bike-Light-item-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Bolt T-Shirt item" classname="checkout.test.spec.js" time="2.436">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-f4aa6-auce-Labs-Bolt-T-Shirt-item-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Fleece Jacket item" classname="checkout.test.spec.js" time="2.053">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-b10e4-uce-Labs-Fleece-Jacket-item-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Onesie item" classname="checkout.test.spec.js" time="2.122">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-bbe0a--for-Sauce-Labs-Onesie-item-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Test.allTheThings() T-Shirt (Red) item" classname="checkout.test.spec.js" time="2.541">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-d0e56-lTheThings-T-Shirt-Red-item-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.test.spec.js" timestamp="2024-12-08T08:57:16.725Z" hostname="chromium" tests="11" failures="0" skipped="0" time="16.58" errors="0">
+<testcase name="Swag Labs Login Validations › Valid Login 1" classname="login.test.spec.js" time="1.559">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-Validations-Valid-Login-1-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Valid Login 2" classname="login.test.spec.js" time="2.074">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-Validations-Valid-Login-2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Invalid credentials login 1" classname="login.test.spec.js" time="1.411">
+<system-out>
+<![CDATA[Epic sadface: Username and password do not match any user in this service
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-e3f0f-Invalid-credentials-login-1-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Empty username Login 1" classname="login.test.spec.js" time="1.374">
+<system-out>
+<![CDATA[Epic sadface: Username is required
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-b0fa8-ions-Empty-username-Login-1-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Empty password Login 1" classname="login.test.spec.js" time="1.435">
+<system-out>
+<![CDATA[Epic sadface: Password is required
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-caca8-ions-Empty-password-Login-1-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Invalid credentials login 2" classname="login.test.spec.js" time="1.371">
+<system-out>
+<![CDATA[Epic sadface: Username and password do not match any user in this service
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-d0f58-Invalid-credentials-login-2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Empty username Login 2" classname="login.test.spec.js" time="1.678">
+<system-out>
+<![CDATA[Epic sadface: Username is required
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-1c632-ions-Empty-username-Login-2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Empty password Login 2" classname="login.test.spec.js" time="1.469">
+<system-out>
+<![CDATA[Epic sadface: Password is required
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-b03de-ions-Empty-password-Login-2-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Invalid credentials login 3" classname="login.test.spec.js" time="1.404">
+<system-out>
+<![CDATA[Epic sadface: Username and password do not match any user in this service
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-49ef9-Invalid-credentials-login-3-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Empty username Login 3" classname="login.test.spec.js" time="1.43">
+<system-out>
+<![CDATA[Epic sadface: Username is required
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-08c8e-ions-Empty-username-Login-3-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Login Validations › Empty password Login 3" classname="login.test.spec.js" time="1.375">
+<system-out>
+<![CDATA[Epic sadface: Password is required
+
+[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-6892f-ions-Empty-password-Login-3-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="product.test.spec.js" timestamp="2024-12-08T08:57:16.725Z" hostname="chromium" tests="4" failures="0" skipped="0" time="6.793" errors="0">
+<testcase name="Swag Labs Sort Product Validations › Sort product A to Z" classname="product.test.spec.js" time="1.638">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-b09ef-dations-Sort-product-A-to-Z-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Sort Product Validations › Sort product Z to A" classname="product.test.spec.js" time="1.789">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-11001-dations-Sort-product-Z-to-A-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Sort Product Validations › Sort product high to Low" classname="product.test.spec.js" time="1.505">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-b660e-ns-Sort-product-high-to-Low-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Sort Product Validations › Sort product Low to High" classname="product.test.spec.js" time="1.861">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-87443-ns-Sort-product-Low-to-High-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="visual.test.spec.js" timestamp="2024-12-08T08:57:16.725Z" hostname="chromium" tests="2" failures="0" skipped="0" time="7.071" errors="0">
+<testcase name="Swag Labs Images Validations › Products Page" classname="visual.test.spec.js" time="3.718">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Products-Page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Images Validations › Cart Page" classname="visual.test.spec.js" time="3.353">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Cart-Page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+{
+    "valid": [
+        {
+            "id": "1",
+            "username": "standard_user",
+            "password": "secret_sauce"
+        },
+        {
+            "id": "2",
+            "username": "visual_user",
+            "password": "secret_sauce"
+        }
+    ],
+
+    "invalid": [
+        {
+            "id": "1",
+            "username": "standard_user",
+            "password": "RW=UEk],V"
+        },
+        {
+            "id": "2",
+            "username": "Taylor",
+            "password": "secret_sauce"
+        },
+        {
+            "id": "3",
+            "username": "Abel",
+            "password": "Ysx0n)jXU"
+        }   ]
+}
