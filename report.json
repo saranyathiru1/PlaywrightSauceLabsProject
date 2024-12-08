@@ -120,23 +120,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 6898,
+                      "duration": 7926,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:18.795Z",
+                      "startTime": "2024-12-08T12:06:26.387Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-99fe8--Add-single-product-to-cart-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-99fe8--Add-single-product-to-cart-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -144,7 +144,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "d19b77e61c84eedb920d-dba06658c6bf2e87d3a2",
+              "id": "d19b77e61c84eedb920d-e7e101ee519a62ce489b",
               "file": "cart.test.spec.js",
               "line": 15,
               "column": 5
@@ -158,23 +158,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3351,
+                      "duration": 4744,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:27.173Z",
+                      "startTime": "2024-12-08T12:06:37.303Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-1a2a2-ve-single-product-from-cart-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-1a2a2-ve-single-product-from-cart-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -182,7 +182,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "d19b77e61c84eedb920d-06436201a4f2085abd11",
+              "id": "d19b77e61c84eedb920d-e93aa7fefe85cb304c90",
               "file": "cart.test.spec.js",
               "line": 21,
               "column": 5
@@ -196,13 +196,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2532,
+                      "duration": 6059,
                       "errors": [],
                       "stdout": [
                         {
@@ -211,12 +211,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:30.550Z",
+                      "startTime": "2024-12-08T12:06:42.082Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-6342e-fy-total-items-in-cart-page-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-6342e-fy-total-items-in-cart-page-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -224,7 +224,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "d19b77e61c84eedb920d-1d4c780882a691f0adb5",
+              "id": "d19b77e61c84eedb920d-6c0782789cf39b3053ed",
               "file": "cart.test.spec.js",
               "line": 29,
               "column": 5
@@ -255,23 +255,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 7619,
+                      "duration": 10598,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:19.133Z",
+                      "startTime": "2024-12-08T12:06:26.831Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-12aea-or-Sauce-Labs-Backpack-item-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-12aea-or-Sauce-Labs-Backpack-item-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -279,7 +279,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "ff72710a7570d88da576-ca96e6b73b36a001aedf",
+              "id": "ff72710a7570d88da576-34b8b232f59b1494baa1",
               "file": "checkout.test.spec.js",
               "line": 17,
               "column": 5
@@ -293,23 +293,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 2352,
+                      "duration": 4938,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:27.915Z",
+                      "startTime": "2024-12-08T12:06:41.676Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-9346c--Sauce-Labs-Bike-Light-item-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-9346c--Sauce-Labs-Bike-Light-item-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -317,7 +317,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "ff72710a7570d88da576-40395f36ff9712ac6b23",
+              "id": "ff72710a7570d88da576-013e6e8bc944768ed80b",
               "file": "checkout.test.spec.js",
               "line": 17,
               "column": 5
@@ -331,23 +331,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 2436,
+                      "duration": 4554,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:30.313Z",
+                      "startTime": "2024-12-08T12:06:46.665Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-f4aa6-auce-Labs-Bolt-T-Shirt-item-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-f4aa6-auce-Labs-Bolt-T-Shirt-item-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -355,7 +355,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "ff72710a7570d88da576-a86a3aca039717580b9a",
+              "id": "ff72710a7570d88da576-39d1fc0292360b4a7a50",
               "file": "checkout.test.spec.js",
               "line": 17,
               "column": 5
@@ -369,23 +369,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2053,
+                      "duration": 5080,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:32.787Z",
+                      "startTime": "2024-12-08T12:06:49.180Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-b10e4-uce-Labs-Fleece-Jacket-item-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-b10e4-uce-Labs-Fleece-Jacket-item-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -393,7 +393,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "ff72710a7570d88da576-ae2f6a8a89de3ea349bf",
+              "id": "ff72710a7570d88da576-61863e7920fd0c128f0a",
               "file": "checkout.test.spec.js",
               "line": 17,
               "column": 5
@@ -407,23 +407,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 2122,
+                      "duration": 6493,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:33.628Z",
+                      "startTime": "2024-12-08T12:06:51.345Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-bbe0a--for-Sauce-Labs-Onesie-item-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-bbe0a--for-Sauce-Labs-Onesie-item-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -431,7 +431,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "ff72710a7570d88da576-aba71c8145fcbe5eae80",
+              "id": "ff72710a7570d88da576-62eee9357d9653e2ce22",
               "file": "checkout.test.spec.js",
               "line": 17,
               "column": 5
@@ -445,23 +445,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2541,
+                      "duration": 4980,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:34.882Z",
+                      "startTime": "2024-12-08T12:06:54.391Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-d0e56-lTheThings-T-Shirt-Red-item-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-d0e56-lTheThings-T-Shirt-Red-item-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -469,7 +469,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "ff72710a7570d88da576-e11424d482fed3389d9c",
+              "id": "ff72710a7570d88da576-09e064d2ea8609e5b3d6",
               "file": "checkout.test.spec.js",
               "line": 17,
               "column": 5
@@ -500,23 +500,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1559,
+                      "duration": 8375,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:35.845Z",
+                      "startTime": "2024-12-08T12:06:57.895Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-Validations-Valid-Login-1-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-Validations-Valid-Login-1-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -524,7 +524,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-fc96ac84bdafeae7bd5a",
+              "id": "f81df24219cd0815c1f6-ec135eb4f81d37d53dea",
               "file": "login.test.spec.js",
               "line": 10,
               "column": 9
@@ -538,23 +538,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2074,
+                      "duration": 4814,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:37.426Z",
+                      "startTime": "2024-12-08T12:06:59.463Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-Validations-Valid-Login-2-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-Validations-Valid-Login-2-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -562,7 +562,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-e25e98d8ff9975578ae6",
+              "id": "f81df24219cd0815c1f6-ac53bc6922729b25bcaa",
               "file": "login.test.spec.js",
               "line": 10,
               "column": 9
@@ -576,13 +576,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1411,
+                      "duration": 3309,
                       "errors": [],
                       "stdout": [
                         {
@@ -591,12 +591,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:37.485Z",
+                      "startTime": "2024-12-08T12:07:04.319Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-e3f0f-Invalid-credentials-login-1-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-e3f0f-Invalid-credentials-login-1-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -604,7 +604,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-5649a682ebcc865f89c5",
+              "id": "f81df24219cd0815c1f6-400f8bedbb4e09dacdee",
               "file": "login.test.spec.js",
               "line": 17,
               "column": 9
@@ -618,13 +618,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1374,
+                      "duration": 3009,
                       "errors": [],
                       "stdout": [
                         {
@@ -633,12 +633,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:38.923Z",
+                      "startTime": "2024-12-08T12:07:06.303Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-b0fa8-ions-Empty-username-Login-1-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-b0fa8-ions-Empty-username-Login-1-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -646,7 +646,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-fd8b7e5eedc24c435f79",
+              "id": "f81df24219cd0815c1f6-db62782ffa24a9b842ea",
               "file": "login.test.spec.js",
               "line": 24,
               "column": 9
@@ -660,13 +660,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1435,
+                      "duration": 4182,
                       "errors": [],
                       "stdout": [
                         {
@@ -675,12 +675,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:39.523Z",
+                      "startTime": "2024-12-08T12:07:07.681Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-caca8-ions-Empty-password-Login-1-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-caca8-ions-Empty-password-Login-1-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -688,7 +688,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-3cd295a1befe7569fddb",
+              "id": "f81df24219cd0815c1f6-fd8e7adc6de916c837ea",
               "file": "login.test.spec.js",
               "line": 30,
               "column": 9
@@ -702,13 +702,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1371,
+                      "duration": 3669,
                       "errors": [],
                       "stdout": [
                         {
@@ -717,12 +717,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:40.331Z",
+                      "startTime": "2024-12-08T12:07:09.531Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-d0f58-Invalid-credentials-login-2-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-d0f58-Invalid-credentials-login-2-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -730,7 +730,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-af3667d04f30ec8d6b54",
+              "id": "f81df24219cd0815c1f6-8899eda33611c2b674d0",
               "file": "login.test.spec.js",
               "line": 17,
               "column": 9
@@ -744,13 +744,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1678,
+                      "duration": 3608,
                       "errors": [],
                       "stdout": [
                         {
@@ -759,12 +759,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:40.983Z",
+                      "startTime": "2024-12-08T12:07:12.105Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-1c632-ions-Empty-username-Login-2-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-1c632-ions-Empty-username-Login-2-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -772,7 +772,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-c0643f601f81a51338a6",
+              "id": "f81df24219cd0815c1f6-25efa9fea138e2fa2966",
               "file": "login.test.spec.js",
               "line": 24,
               "column": 9
@@ -786,13 +786,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1469,
+                      "duration": 3135,
                       "errors": [],
                       "stdout": [
                         {
@@ -801,12 +801,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:41.728Z",
+                      "startTime": "2024-12-08T12:07:13.411Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-b03de-ions-Empty-password-Login-2-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-b03de-ions-Empty-password-Login-2-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -814,7 +814,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-afd8221961c8302e5a6c",
+              "id": "f81df24219cd0815c1f6-c4b77f2f4612c1e0f32c",
               "file": "login.test.spec.js",
               "line": 30,
               "column": 9
@@ -828,13 +828,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1404,
+                      "duration": 2839,
                       "errors": [],
                       "stdout": [
                         {
@@ -843,12 +843,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:42.685Z",
+                      "startTime": "2024-12-08T12:07:15.743Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-49ef9-Invalid-credentials-login-3-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-49ef9-Invalid-credentials-login-3-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -856,7 +856,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-daa7eeb7711b9c6d7a8d",
+              "id": "f81df24219cd0815c1f6-632aecabf316184d3d88",
               "file": "login.test.spec.js",
               "line": 17,
               "column": 9
@@ -870,13 +870,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1430,
+                      "duration": 4384,
                       "errors": [],
                       "stdout": [
                         {
@@ -885,12 +885,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:43.224Z",
+                      "startTime": "2024-12-08T12:07:16.576Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-08c8e-ions-Empty-username-Login-3-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-08c8e-ions-Empty-username-Login-3-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -898,7 +898,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-49606f3659dc12a8e37e",
+              "id": "f81df24219cd0815c1f6-d4fb91962497cb417a52",
               "file": "login.test.spec.js",
               "line": 24,
               "column": 9
@@ -912,13 +912,13 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1375,
+                      "duration": 3084,
                       "errors": [],
                       "stdout": [
                         {
@@ -927,12 +927,12 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:44.119Z",
+                      "startTime": "2024-12-08T12:07:18.607Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-6892f-ions-Empty-password-Login-3-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-6892f-ions-Empty-password-Login-3-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -940,7 +940,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "f81df24219cd0815c1f6-f9939349fcac3545704d",
+              "id": "f81df24219cd0815c1f6-56eb08c34dd11f70f16f",
               "file": "login.test.spec.js",
               "line": 30,
               "column": 9
@@ -971,23 +971,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1638,
+                      "duration": 4548,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:44.684Z",
+                      "startTime": "2024-12-08T12:07:20.989Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-b09ef-dations-Sort-product-A-to-Z-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-b09ef-dations-Sort-product-A-to-Z-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -995,7 +995,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "275b8c758575a2617457-bbcd0c867fa417ed9561",
+              "id": "275b8c758575a2617457-fb816a9ae95c33095683",
               "file": "product.test.spec.js",
               "line": 15,
               "column": 5
@@ -1009,23 +1009,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1789,
+                      "duration": 4009,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:46.342Z",
+                      "startTime": "2024-12-08T12:07:25.556Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-11001-dations-Sort-product-Z-to-A-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-11001-dations-Sort-product-Z-to-A-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1033,7 +1033,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "275b8c758575a2617457-eb9844c4f077198c6d31",
+              "id": "275b8c758575a2617457-05c68dec475a4a85fd03",
               "file": "product.test.spec.js",
               "line": 25,
               "column": 5
@@ -1047,23 +1047,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1505,
+                      "duration": 5374,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:48.152Z",
+                      "startTime": "2024-12-08T12:07:29.585Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-b660e-ns-Sort-product-high-to-Low-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-b660e-ns-Sort-product-high-to-Low-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1071,7 +1071,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "275b8c758575a2617457-81e2a9aafa7c29b5855c",
+              "id": "275b8c758575a2617457-a7317bbb1ddc16879cc6",
               "file": "product.test.spec.js",
               "line": 32,
               "column": 5
@@ -1085,23 +1085,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 1861,
+                      "duration": 3177,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:49.675Z",
+                      "startTime": "2024-12-08T12:07:34.980Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-87443-ns-Sort-product-Low-to-High-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-87443-ns-Sort-product-Low-to-High-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1109,7 +1109,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "275b8c758575a2617457-0eece8a9e73e51902891",
+              "id": "275b8c758575a2617457-e8081ecadf3725c4eaf3",
               "file": "product.test.spec.js",
               "line": 44,
               "column": 5
@@ -1140,23 +1140,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3718,
+                      "duration": 5878,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:45.521Z",
+                      "startTime": "2024-12-08T12:07:22.026Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Products-Page-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Products-Page-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1164,7 +1164,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "fcc18fa0f09074e68b7c-5f47fa42ba5b69cd6a2d",
+              "id": "fcc18fa0f09074e68b7c-501bef88d9014b97e614",
               "file": "visual.test.spec.js",
               "line": 15,
               "column": 5
@@ -1178,23 +1178,23 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3353,
+                      "duration": 6263,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T08:57:49.260Z",
+                      "startTime": "2024-12-08T12:07:27.952Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Cart-Page-chromium\\test-finished-1.png"
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Cart-Page-firefox\\test-finished-1.png"
                         }
                       ]
                     }
@@ -1202,7 +1202,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "fcc18fa0f09074e68b7c-a928c7cf095cf5e7b365",
+              "id": "fcc18fa0f09074e68b7c-f420d1c1209cf4c6953d",
               "file": "visual.test.spec.js",
               "line": 19,
               "column": 5
@@ -1214,8 +1214,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-12-08T08:57:16.006Z",
-    "duration": 36803.353,
+    "startTime": "2024-12-08T12:06:23.166Z",
+    "duration": 76707.497,
     "expected": 26,
     "skipped": 0,
     "unexpected": 0,
