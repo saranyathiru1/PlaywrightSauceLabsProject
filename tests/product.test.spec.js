@@ -12,7 +12,7 @@ test.describe('Swag Labs Sort Product Validations', async () => {
     })
 
 
-    test('Sort product A to Z', async ({ productsPage }) => {
+    test('Sort product A to Z', { tag: '@regression' },async ({ productsPage }) => {
         
         await productsPage.sortProduct('az');
         products = await productsPage.getProduct();
@@ -22,7 +22,7 @@ test.describe('Swag Labs Sort Product Validations', async () => {
     })
 
 
-    test('Sort product Z to A', async ({ productsPage }) => {
+    test('Sort product Z to A', { tag: '@regression' },async ({ productsPage }) => {
         await productsPage.sortProduct('za');
         products = await productsPage.getProduct();
         const expectedProductNames = productsData.productNames.reverse();
@@ -41,7 +41,7 @@ test.describe('Swag Labs Sort Product Validations', async () => {
         expect(products.allProductPrices).toEqual(expectedProductPrice);
     })
 
-    test('Sort product Low to High', async ({ productsPage }) => {
+    test('Sort product Low to High', { tag: '@regression' }, async ({ productsPage }) => {
         await productsPage.sortProduct('lohi');
         products = await productsPage.getProduct();
         const expectedProductPrice = productsData.productPrices.sort((a, b) => {

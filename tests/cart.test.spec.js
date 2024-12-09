@@ -25,7 +25,7 @@ test.describe('Swag Labs Cart Validations', async () => {
     })
 
 
-    test('Add all products to cart and verify total items in cart page', async ({ productsPage, myCartPage }) => {
+    test('Add all products to cart and verify total items in cart page', { tag: '@regression' },async ({ productsPage, myCartPage }) => {
 
         for (let i = 0; i < productsData.productNames.length; i++) {
             await productsPage.addOrRemoveProductToCart(productsData.productNames[i]);

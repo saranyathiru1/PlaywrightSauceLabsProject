@@ -7,7 +7,7 @@ test.describe.configure({ mode: 'parallel' });
 test.describe('Swag Labs Login Validations', async () => {
 
     for (const data of loginData.valid) {
-        test(`Valid Login ${data.id}`, async ({ loginPage }) => {
+        test(`Valid Login ${data.id}`,{ tag: ['@login', '@regression'] }, async ({ loginPage }) => {
             await loginPage.Login(data.username, data.password);
             await expect(loginPage.pageTitle).toContainText(messagesData.login_success);
         });

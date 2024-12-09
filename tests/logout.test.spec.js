@@ -12,7 +12,7 @@ test.describe('Swag Labs Logout Validations', async () => {
     })
 
 
-    test('LogoutTest', async ({ sidebarPage,loginPage }) => {
+    test('LogoutTest', { tag: '@regression' }, async ({ sidebarPage,loginPage }) => {
         
         await sidebarPage.clickBurgerMenu();
         await sidebarPage.clickLogout();
