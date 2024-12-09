@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repository contains automated tests for the [Swag Labs web](https://www.saucedemo.com/) application, leveraging **Playwright** with **TypeScript**. The project follows the Page Object Model (POM) design pattern, aimed at ensuring robust, maintainable tests that validate the core functionality of the application, enabling successful user interaction with the web interface.
+This repository contains automated tests for the [Swag Labs web](https://www.saucedemo.com/) application, leveraging **Playwright** with **JavaScript**. The project follows the Page Object Model (POM) design pattern, aimed at ensuring robust, maintainable tests that validate the core functionality of the application, enabling successful user interaction with the web interface.
 
 ## Table of Contents
 
@@ -15,7 +15,6 @@ This repository contains automated tests for the [Swag Labs web](https://www.sau
 - [Configuration](#configuration)
 - [Continuous Integration](#continuous-integration)
 - [Documentation](#documentation)
-- [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
 
 ## Installation
@@ -71,7 +70,7 @@ npx playwright test --debug
 The project relies on several key Node.js packages:
 
 - playwright for running browser automation.
-- Javacsript for using JavaScript in the project.
+- Javascript for using JavaScript in the project.
    Further details can be found in package.json.
 
 ## Configuration
