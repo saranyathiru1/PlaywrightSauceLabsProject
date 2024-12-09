@@ -26,7 +26,6 @@ module.exports = defineConfig({
     screenshot: 'on',
     headless: true
   },
-  snapshotPathTemplate: 'snapshots/{projectName}/{platform}/{arg}{ext}',
 
   projects: [
     {
