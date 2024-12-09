@@ -58,7 +58,7 @@
         "testDir": "C:/Saranya/SwagLabs Automation/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+          "visual.test.spec.js"
         ],
         "timeout": 30000
       },
@@ -72,7 +72,7 @@
         "testDir": "C:/Saranya/SwagLabs Automation/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+          "visual.test.spec.js"
         ],
         "timeout": 30000
       },
@@ -86,7 +86,7 @@
         "testDir": "C:/Saranya/SwagLabs Automation/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+          "visual.test.spec.js"
         ],
         "timeout": 30000
       }
@@ -98,1026 +98,6 @@
     "webServer": null
   },
   "suites": [
-    {
-      "title": "cart.test.spec.js",
-      "file": "cart.test.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Swag Labs Cart Validations",
-          "file": "cart.test.spec.js",
-          "line": 7,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Add single product to cart",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 7926,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:26.387Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-99fe8--Add-single-product-to-cart-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "d19b77e61c84eedb920d-e7e101ee519a62ce489b",
-              "file": "cart.test.spec.js",
-              "line": 15,
-              "column": 5
-            },
-            {
-              "title": "Remove single product from cart",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 4744,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:37.303Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-1a2a2-ve-single-product-from-cart-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "d19b77e61c84eedb920d-e93aa7fefe85cb304c90",
-              "file": "cart.test.spec.js",
-              "line": 21,
-              "column": 5
-            },
-            {
-              "title": "Add all products to cart and verify total items in cart page",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 6059,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "locator('.cart_item')\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:42.082Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\cart.test-Swag-Labs-Cart-V-6342e-fy-total-items-in-cart-page-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "d19b77e61c84eedb920d-6c0782789cf39b3053ed",
-              "file": "cart.test.spec.js",
-              "line": 29,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "checkout.test.spec.js",
-      "file": "checkout.test.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Swag Labs Checkout Product Validations",
-          "file": "checkout.test.spec.js",
-          "line": 8,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Checkout product end to end validations for Sauce Labs Backpack item",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 10598,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:26.831Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-12aea-or-Sauce-Labs-Backpack-item-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ff72710a7570d88da576-34b8b232f59b1494baa1",
-              "file": "checkout.test.spec.js",
-              "line": 17,
-              "column": 5
-            },
-            {
-              "title": "Checkout product end to end validations for Sauce Labs Bike Light item",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 4938,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:41.676Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-9346c--Sauce-Labs-Bike-Light-item-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ff72710a7570d88da576-013e6e8bc944768ed80b",
-              "file": "checkout.test.spec.js",
-              "line": 17,
-              "column": 5
-            },
-            {
-              "title": "Checkout product end to end validations for Sauce Labs Bolt T-Shirt item",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 4554,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:46.665Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-f4aa6-auce-Labs-Bolt-T-Shirt-item-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ff72710a7570d88da576-39d1fc0292360b4a7a50",
-              "file": "checkout.test.spec.js",
-              "line": 17,
-              "column": 5
-            },
-            {
-              "title": "Checkout product end to end validations for Sauce Labs Fleece Jacket item",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 5080,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:49.180Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-b10e4-uce-Labs-Fleece-Jacket-item-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ff72710a7570d88da576-61863e7920fd0c128f0a",
-              "file": "checkout.test.spec.js",
-              "line": 17,
-              "column": 5
-            },
-            {
-              "title": "Checkout product end to end validations for Sauce Labs Onesie item",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 6493,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:51.345Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-bbe0a--for-Sauce-Labs-Onesie-item-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ff72710a7570d88da576-62eee9357d9653e2ce22",
-              "file": "checkout.test.spec.js",
-              "line": 17,
-              "column": 5
-            },
-            {
-              "title": "Checkout product end to end validations for Test.allTheThings() T-Shirt (Red) item",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 4980,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:54.391Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\checkout.test-Swag-Labs-Ch-d0e56-lTheThings-T-Shirt-Red-item-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ff72710a7570d88da576-09e064d2ea8609e5b3d6",
-              "file": "checkout.test.spec.js",
-              "line": 17,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "login.test.spec.js",
-      "file": "login.test.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Swag Labs Login Validations",
-          "file": "login.test.spec.js",
-          "line": 7,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Valid Login 1",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 8375,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:57.895Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-Validations-Valid-Login-1-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-ec135eb4f81d37d53dea",
-              "file": "login.test.spec.js",
-              "line": 10,
-              "column": 9
-            },
-            {
-              "title": "Valid Login 2",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 4814,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:06:59.463Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-Validations-Valid-Login-2-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-ac53bc6922729b25bcaa",
-              "file": "login.test.spec.js",
-              "line": 10,
-              "column": 9
-            },
-            {
-              "title": "Invalid credentials login 1",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 3309,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Username and password do not match any user in this service\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:04.319Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-e3f0f-Invalid-credentials-login-1-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-400f8bedbb4e09dacdee",
-              "file": "login.test.spec.js",
-              "line": 17,
-              "column": 9
-            },
-            {
-              "title": "Empty username Login 1",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 3009,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Username is required\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:06.303Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-b0fa8-ions-Empty-username-Login-1-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-db62782ffa24a9b842ea",
-              "file": "login.test.spec.js",
-              "line": 24,
-              "column": 9
-            },
-            {
-              "title": "Empty password Login 1",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 4182,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Password is required\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:07.681Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-caca8-ions-Empty-password-Login-1-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-fd8e7adc6de916c837ea",
-              "file": "login.test.spec.js",
-              "line": 30,
-              "column": 9
-            },
-            {
-              "title": "Invalid credentials login 2",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 3669,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Username and password do not match any user in this service\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:09.531Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-d0f58-Invalid-credentials-login-2-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-8899eda33611c2b674d0",
-              "file": "login.test.spec.js",
-              "line": 17,
-              "column": 9
-            },
-            {
-              "title": "Empty username Login 2",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 3608,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Username is required\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:12.105Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-1c632-ions-Empty-username-Login-2-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-25efa9fea138e2fa2966",
-              "file": "login.test.spec.js",
-              "line": 24,
-              "column": 9
-            },
-            {
-              "title": "Empty password Login 2",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 3135,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Password is required\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:13.411Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-b03de-ions-Empty-password-Login-2-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-c4b77f2f4612c1e0f32c",
-              "file": "login.test.spec.js",
-              "line": 30,
-              "column": 9
-            },
-            {
-              "title": "Invalid credentials login 3",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 2839,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Username and password do not match any user in this service\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:15.743Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-49ef9-Invalid-credentials-login-3-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-632aecabf316184d3d88",
-              "file": "login.test.spec.js",
-              "line": 17,
-              "column": 9
-            },
-            {
-              "title": "Empty username Login 3",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 4384,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Username is required\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:16.576Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-08c8e-ions-Empty-username-Login-3-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-d4fb91962497cb417a52",
-              "file": "login.test.spec.js",
-              "line": 24,
-              "column": 9
-            },
-            {
-              "title": "Empty password Login 3",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 3084,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Epic sadface: Password is required\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:18.607Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\login.test-Swag-Labs-Login-6892f-ions-Empty-password-Login-3-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "f81df24219cd0815c1f6-56eb08c34dd11f70f16f",
-              "file": "login.test.spec.js",
-              "line": 30,
-              "column": 9
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "product.test.spec.js",
-      "file": "product.test.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Swag Labs Sort Product Validations",
-          "file": "product.test.spec.js",
-          "line": 7,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Sort product A to Z",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 4548,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:20.989Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-b09ef-dations-Sort-product-A-to-Z-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "275b8c758575a2617457-fb816a9ae95c33095683",
-              "file": "product.test.spec.js",
-              "line": 15,
-              "column": 5
-            },
-            {
-              "title": "Sort product Z to A",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 4009,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:25.556Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-11001-dations-Sort-product-Z-to-A-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "275b8c758575a2617457-05c68dec475a4a85fd03",
-              "file": "product.test.spec.js",
-              "line": 25,
-              "column": 5
-            },
-            {
-              "title": "Sort product high to Low",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 5374,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:29.585Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-b660e-ns-Sort-product-high-to-Low-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "275b8c758575a2617457-a7317bbb1ddc16879cc6",
-              "file": "product.test.spec.js",
-              "line": 32,
-              "column": 5
-            },
-            {
-              "title": "Sort product Low to High",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 3177,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-12-08T12:07:34.980Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\product.test-Swag-Labs-Sor-87443-ns-Sort-product-Low-to-High-firefox\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "275b8c758575a2617457-e8081ecadf3725c4eaf3",
-              "file": "product.test.spec.js",
-              "line": 44,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
     {
       "title": "visual.test.spec.js",
       "file": "visual.test.spec.js",
@@ -1140,18 +120,94 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 5878,
+                      "duration": 9283,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T12:07:22.026Z",
+                      "startTime": "2024-12-09T08:31:34.131Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Products-Page-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcc18fa0f09074e68b7c-bac08ea077284c543086",
+              "file": "visual.test.spec.js",
+              "line": 15,
+              "column": 5
+            },
+            {
+              "title": "Cart Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7713,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-09T08:31:43.582Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Cart-Page-webkit\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcc18fa0f09074e68b7c-d42375c4a156efab06ea",
+              "file": "visual.test.spec.js",
+              "line": 19,
+              "column": 5
+            },
+            {
+              "title": "Products Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 9050,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-09T08:31:34.203Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -1182,14 +238,14 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 6263,
+                      "duration": 6284,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-08T12:07:27.952Z",
+                      "startTime": "2024-12-09T08:31:45.461Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -1206,6 +262,82 @@
               "file": "visual.test.spec.js",
               "line": 19,
               "column": 5
+            },
+            {
+              "title": "Products Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 5703,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-09T08:31:55.042Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Products-Page-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcc18fa0f09074e68b7c-5f47fa42ba5b69cd6a2d",
+              "file": "visual.test.spec.js",
+              "line": 15,
+              "column": 5
+            },
+            {
+              "title": "Cart Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 3109,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-09T08:32:00.935Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Saranya\\SwagLabs Automation\\test-results\\visual.test-Swag-Labs-Images-Validations-Cart-Page-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "fcc18fa0f09074e68b7c-a928c7cf095cf5e7b365",
+              "file": "visual.test.spec.js",
+              "line": 19,
+              "column": 5
             }
           ]
         }
@@ -1214,9 +346,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-12-08T12:06:23.166Z",
-    "duration": 76707.497,
-    "expected": 26,
+    "startTime": "2024-12-09T08:31:31.695Z",
+    "duration": 32542.572,
+    "expected": 6,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

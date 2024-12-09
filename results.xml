@@ -1,202 +1,48 @@
-<testsuites id="" name="" tests="26" failures="0" skipped="0" errors="0" time="76.707497">
-<testsuite name="cart.test.spec.js" timestamp="2024-12-08T12:06:23.817Z" hostname="firefox" tests="3" failures="0" skipped="0" time="18.729" errors="0">
-<testcase name="Swag Labs Cart Validations › Add single product to cart" classname="cart.test.spec.js" time="7.926">
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="32.542572">
+<testsuite name="visual.test.spec.js" timestamp="2024-12-09T08:31:31.764Z" hostname="webkit" tests="2" failures="0" skipped="0" time="16.996" errors="0">
+<testcase name="Swag Labs Images Validations › Products Page" classname="visual.test.spec.js" time="9.283">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\cart.test-Swag-Labs-Cart-V-99fe8--Add-single-product-to-cart-firefox\test-finished-1.png]]
+[[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Products-Page-webkit\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Swag Labs Cart Validations › Remove single product from cart" classname="cart.test.spec.js" time="4.744">
+<testcase name="Swag Labs Images Validations › Cart Page" classname="visual.test.spec.js" time="7.713">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\cart.test-Swag-Labs-Cart-V-1a2a2-ve-single-product-from-cart-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Cart Validations › Add all products to cart and verify total items in cart page" classname="cart.test.spec.js" time="6.059">
-<system-out>
-<![CDATA[locator('.cart_item')
-
-[[ATTACHMENT|test-results\cart.test-Swag-Labs-Cart-V-6342e-fy-total-items-in-cart-page-firefox\test-finished-1.png]]
+[[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Cart-Page-webkit\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="checkout.test.spec.js" timestamp="2024-12-08T12:06:23.817Z" hostname="firefox" tests="6" failures="0" skipped="0" time="36.643" errors="0">
-<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Backpack item" classname="checkout.test.spec.js" time="10.598">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-12aea-or-Sauce-Labs-Backpack-item-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Bike Light item" classname="checkout.test.spec.js" time="4.938">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-9346c--Sauce-Labs-Bike-Light-item-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Bolt T-Shirt item" classname="checkout.test.spec.js" time="4.554">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-f4aa6-auce-Labs-Bolt-T-Shirt-item-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Fleece Jacket item" classname="checkout.test.spec.js" time="5.08">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-b10e4-uce-Labs-Fleece-Jacket-item-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Sauce Labs Onesie item" classname="checkout.test.spec.js" time="6.493">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-bbe0a--for-Sauce-Labs-Onesie-item-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Checkout Product Validations › Checkout product end to end validations for Test.allTheThings() T-Shirt (Red) item" classname="checkout.test.spec.js" time="4.98">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\checkout.test-Swag-Labs-Ch-d0e56-lTheThings-T-Shirt-Red-item-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="login.test.spec.js" timestamp="2024-12-08T12:06:23.817Z" hostname="firefox" tests="11" failures="0" skipped="0" time="44.408" errors="0">
-<testcase name="Swag Labs Login Validations › Valid Login 1" classname="login.test.spec.js" time="8.375">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-Validations-Valid-Login-1-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Valid Login 2" classname="login.test.spec.js" time="4.814">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-Validations-Valid-Login-2-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Invalid credentials login 1" classname="login.test.spec.js" time="3.309">
-<system-out>
-<![CDATA[Epic sadface: Username and password do not match any user in this service
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-e3f0f-Invalid-credentials-login-1-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Empty username Login 1" classname="login.test.spec.js" time="3.009">
-<system-out>
-<![CDATA[Epic sadface: Username is required
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-b0fa8-ions-Empty-username-Login-1-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Empty password Login 1" classname="login.test.spec.js" time="4.182">
-<system-out>
-<![CDATA[Epic sadface: Password is required
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-caca8-ions-Empty-password-Login-1-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Invalid credentials login 2" classname="login.test.spec.js" time="3.669">
-<system-out>
-<![CDATA[Epic sadface: Username and password do not match any user in this service
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-d0f58-Invalid-credentials-login-2-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Empty username Login 2" classname="login.test.spec.js" time="3.608">
-<system-out>
-<![CDATA[Epic sadface: Username is required
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-1c632-ions-Empty-username-Login-2-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Empty password Login 2" classname="login.test.spec.js" time="3.135">
-<system-out>
-<![CDATA[Epic sadface: Password is required
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-b03de-ions-Empty-password-Login-2-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Invalid credentials login 3" classname="login.test.spec.js" time="2.839">
-<system-out>
-<![CDATA[Epic sadface: Username and password do not match any user in this service
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-49ef9-Invalid-credentials-login-3-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Empty username Login 3" classname="login.test.spec.js" time="4.384">
-<system-out>
-<![CDATA[Epic sadface: Username is required
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-08c8e-ions-Empty-username-Login-3-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Login Validations › Empty password Login 3" classname="login.test.spec.js" time="3.084">
-<system-out>
-<![CDATA[Epic sadface: Password is required
-
-[[ATTACHMENT|test-results\login.test-Swag-Labs-Login-6892f-ions-Empty-password-Login-3-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="product.test.spec.js" timestamp="2024-12-08T12:06:23.817Z" hostname="firefox" tests="4" failures="0" skipped="0" time="17.108" errors="0">
-<testcase name="Swag Labs Sort Product Validations › Sort product A to Z" classname="product.test.spec.js" time="4.548">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-b09ef-dations-Sort-product-A-to-Z-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Sort Product Validations › Sort product Z to A" classname="product.test.spec.js" time="4.009">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-11001-dations-Sort-product-Z-to-A-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Sort Product Validations › Sort product high to Low" classname="product.test.spec.js" time="5.374">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-b660e-ns-Sort-product-high-to-Low-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Swag Labs Sort Product Validations › Sort product Low to High" classname="product.test.spec.js" time="3.177">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\product.test-Swag-Labs-Sor-87443-ns-Sort-product-Low-to-High-firefox\test-finished-1.png]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="visual.test.spec.js" timestamp="2024-12-08T12:06:23.817Z" hostname="firefox" tests="2" failures="0" skipped="0" time="12.141" errors="0">
-<testcase name="Swag Labs Images Validations › Products Page" classname="visual.test.spec.js" time="5.878">
+<testsuite name="visual.test.spec.js" timestamp="2024-12-09T08:31:31.764Z" hostname="firefox" tests="2" failures="0" skipped="0" time="15.334" errors="0">
+<testcase name="Swag Labs Images Validations › Products Page" classname="visual.test.spec.js" time="9.05">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Products-Page-firefox\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Swag Labs Images Validations › Cart Page" classname="visual.test.spec.js" time="6.263">
+<testcase name="Swag Labs Images Validations › Cart Page" classname="visual.test.spec.js" time="6.284">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Cart-Page-firefox\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="visual.test.spec.js" timestamp="2024-12-09T08:31:31.764Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.812" errors="0">
+<testcase name="Swag Labs Images Validations › Products Page" classname="visual.test.spec.js" time="5.703">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Products-Page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Swag Labs Images Validations › Cart Page" classname="visual.test.spec.js" time="3.109">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\visual.test-Swag-Labs-Images-Validations-Cart-Page-chromium\test-finished-1.png]]
 ]]>
 </system-out>
 </testcase>

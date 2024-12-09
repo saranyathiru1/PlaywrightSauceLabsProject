@@ -4,6 +4,7 @@ class LoginPage {
 
     constructor(page) {
         this.page = page;
+        this.loginLogo = page.locator(".login_logo");
         this.usernameInput = page.locator("#user-name");
         this.passwordInput = page.locator("#password");
         this.loginButton = page.getByRole("button",{name:'Login'});

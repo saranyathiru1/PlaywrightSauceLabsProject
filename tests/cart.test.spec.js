@@ -1,7 +1,6 @@
 const { test, expect } = require("../fixtures/FixtureConfig");
 const productsData = require("../utils/products.json");
 const loginData = require("../utils/users.json");
-let products;
 
 
 test.describe('Swag Labs Cart Validations', async () => {

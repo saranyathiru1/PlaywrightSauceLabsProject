@@ -14,7 +14,7 @@ test.describe('Swag Labs Checkout Product Validations', async()=> {
 
 
     for(const data of productsData.productNames){
-    test(`Checkout product end to end validations for ${data} item`, async({page,productsPage,myCartPage,orderReviewPage,orderConfirmationPage}) =>
+    test(`Checkout product end to end validations for ${data} item`, async({productsPage,myCartPage,orderReviewPage,orderConfirmationPage}) =>
      {
   
         await productsPage.addOrRemoveProductToCart(data);
