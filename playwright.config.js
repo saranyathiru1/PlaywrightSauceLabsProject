@@ -27,7 +27,6 @@ module.exports = defineConfig({
     headless: true
   },
   snapshotPathTemplate: 'snapshots/{projectName}/{platform}/{arg}{ext}',
-  testMatch: 'visual.test.spec.js',
 
   projects: [
     {
